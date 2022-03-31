@@ -11,6 +11,9 @@ namespace AddressBookSystem
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Address book system");
+
+            CreateContacts createContacts = new CreateContacts();
+            createContacts.contactcreate();
         }
     }
 }
